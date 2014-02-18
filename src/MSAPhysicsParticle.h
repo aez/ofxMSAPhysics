@@ -314,7 +314,7 @@ namespace msa {
 			makeFree();
 			_isDead = false;
 			_age = 0;
-			verbose = true;
+			verbose = false;
 			data = NULL;
 			
 			collisionPlane = -1;

@@ -19,6 +19,9 @@ namespace msa {
 				this->_type = kConstraintTypeSpring;
 				this->setClassName("SpringT");
 				
+                this->_a->retain();
+                this->_b->retain();
+                
 				setStrength(strength);
 				setRestLength(restLength);
 				setForceCap(0);
